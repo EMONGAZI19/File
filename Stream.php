@@ -31,7 +31,7 @@ $m3u8Content = <<<'M3U8'
     #EXT-X-KEY:METHOD=AES-128,URI="https://priv.example.com/key.php?r=52"
 
     #EXTINF:2.833,
-    http://media.example.com/fileSequence52-A.ts
+    http://150.242.202.110:824/jiobe/live/2605.ts
     #EXTINF:15.0,
     http://media.example.com/fileSequence52-B.ts
     #EXTINF:13.333,
@@ -82,7 +82,7 @@ echo '*** Parsing master playlist... ***', \PHP_EOL;
 $m3u8Content = <<<'M3U8'
     #EXTM3U
     #EXT-X-STREAM-INF:BANDWIDTH=1280000,AVERAGE-BANDWIDTH=1000000
-    http://example.com/low.m3u8
+    http://streamcastbd.com.php/low.m3u8
     #EXT-X-STREAM-INF:BANDWIDTH=2560000,AVERAGE-BANDWIDTH=2000000
     http://example.com/mid.m3u8
     #EXT-X-STREAM-INF:BANDWIDTH=7680000,AVERAGE-BANDWIDTH=6000000
